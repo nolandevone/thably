@@ -12,7 +12,7 @@
 
 ## Автор
 
-Этот проект был разработан и свёрстан (nolandevone)[https://github.com/nolandevone].
+Этот проект был разработан и свёрстан [nolandevone](https://github.com/nolandevone).
 
 ## Обратная связь
 
