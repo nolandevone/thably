@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 56px;
+}
+
+.navbar-container{
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar-text{
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+}
+
+.header{
+    background-color: #F0EFEB;
+}
+
+.header-container{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title{
+    margin-top: 90px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-subtitle{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 42px;
+    margin-bottom: 33px;
+}
+
+.header-btn{
+    width: 129px;
+    height: 36px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+}
+
+.header-btn:hover{
+    background-color: wheat;
+    color: black;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.best-sellers{
+    margin-bottom: 90px;
+}
+
+.best-sellers-container{
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+
+.best-sellers-title{
+    margin-top: 60px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+
+.best-sellers-subtitle{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 47px;
+}
+
+.best-sellers-title-orders{
+    margin-top: 60px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 52px;
+}
+
+.books{
+    width: 1124px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.books-title{
+    margin-top: 27px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.price{
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.add-cart{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.best-sellers-read{
+    background-color: #CCCCCC4D;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.read-container{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.read-text{
+    margin-left: 100px;
+}
+
+.read-title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 31px;
+}
+
+.read-subtitle{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.read-link{
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.best-sellers-read-2{
+    background-color: #CCCCCC99;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.read-text-2{
+    text-align: end;
+    margin-right: 140px;
+}
+
+.colors-container{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 190px;
+}
+
+.colors-title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 69px;
+}
+
+.colors-block{
+    width: 1100px;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue{
+    background-color: #21F7EC;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.pre-blue{
+    background-color: #33D3BC;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.blue-blue{
+    background-color: #18A5C6;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.coral{
+    background-color: #D38F62;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.red{
+    background-color: #F94C43;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.purple{
+    background-color: #D399FF;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.color-subtitle{
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 26px;
+}
+
+.feedback{
+    margin-top: 163px;
+    margin-bottom: 131px;
+}
+
+.feedback-container{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.feedback-title{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 102px;
+}
+
+.feedback-block-title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin-bottom: 40px;
+}
+
+.feedback-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-location{
+    color: #000;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+
+.feedback-link{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.feedback-image{
+    margin-bottom: 35px;
+}
+
+.subscribe{
+    text-align: center;
+    margin-bottom: 88px;
+}
+
+.subscribe-container{
+    width: 1000px;
+    margin: auto;
+}
+
+.subscribe-title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.subscribe-subtitle{
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.subscribe-form{
+    width: 400px;
+    margin: auto;
+}
+
+.horizantal-input{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.subscribe-name{
+    width: 160px;
+    height: 39px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.subscribe-last-name{
+    width: 170px;
+    height: 39px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.subscribe-email{
+    width: 100%;
+    height: 39px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.subscribe-btn{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: #000;
+    border: none;
+    width: 115px;
+    height: 33px;
+}
+
+.footer{
+    border: solid;
+    background: #020202;
+}
+
+.footer-container{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 48px;
+}
+
+.footer-logo{
+    width: 129px;
+    height: 41px;
+    margin-bottom: 25px;
+}
+
+.footer-icon-logos{
+    font-size: 26px;
+}
+
+.about-title{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.1px;
+    margin-bottom: 25px;
+}
+
+.about-subtitles{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.contact-title{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.contact-subtitles{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    list-style: none;
+    text-decoration: none;
+}
